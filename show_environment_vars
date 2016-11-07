@@ -1,0 +1,6 @@
+#!/bin/ruby
+
+# show all environment vars
+ENV.each{|k,v|
+  puts k
+}
